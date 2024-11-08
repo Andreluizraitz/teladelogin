@@ -1,0 +1,44 @@
+body {
+    background-color:#232742;
+    color: white;
+}
+.title {
+    text-align: center;
+    color: #b6bbe0;
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    height: 90vh;
+    background-image: url(espetinho.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.home {
+    padding: 60px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #232742;
+}
+.email, .senha, .captcha {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: none;
+    background-color: #b6bbe0;
+}
+.entrar {
+    width: 112%;
+    padding: 15px;
+    background-color: #7982c5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.entrar:hover {
+    background-color: #b6bbe0;
+}
