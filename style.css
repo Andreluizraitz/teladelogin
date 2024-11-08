@@ -23,7 +23,7 @@ body {
     width: 300px;
     background-color: #232742;
 }
-.email, .senha, .captcha {
+.email, .senha, .result {
     width: 100%;
     padding: 15px;
     margin: 15px 0;
