@@ -17,13 +17,13 @@
             <div class="home">
                 <form action="login.php" method="post">
                     <label for="email">Email:</label>
-                    <input type="email" class="email" id="email" name="email" required>
+                    <input type="email" class="email" name="email" required>
                     <br>
                     <label for="senha">Senha:</label>
-                    <input type="password" class="senha" id="senha" name="senha" required minlength="8">
+                    <input type="password" class="senha" name="senha" required minlength="8">
                     <br>
                     <label>Digite a soma de <span id="numeros"></span></label>
-                    <input type="text" class="captcha" id="result" name="captcha" required placeholder="Digite a soma">
+                    <input type="text" class="result" id="result" name="resultado" required placeholder="Digite a soma">
                     <br>
                     <input type="submit" onclick="teste ()" class="entrar" value="Entrar">
                 </form>

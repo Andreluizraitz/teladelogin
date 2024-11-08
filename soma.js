@@ -8,8 +8,8 @@ function teste () {
     let result = document.getElementById("result").value;
 
 if (numero1 + numero2 == result) {
-    document.getElementById("captcha").value = alert ("Login realizado com sucesso!");
+    alert ("Login realizado com sucesso!");
 } else {
-    document.getElementById("captcha").value = alert ("A soma esta incorreta, tente novamente");
+    alert ("A soma esta incorreta, tente novamente");
 }
 }
